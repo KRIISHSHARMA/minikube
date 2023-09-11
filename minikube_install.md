@@ -1,6 +1,6 @@
 # Minikube on AWS EC2
 
-### Install docker on EC2(t2.medium and Ubuntu 20.04 LTS)
+
 https://docs.docker.com/engine/install/ubuntu/
 ```
 # Uninstall old versions
@@ -110,3 +110,5 @@ kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --por
 kubectl expose pod hello-minikube --type=NodePort
 
 ```
+###sorce
+https://github.com/kunchalavikram1427/YouTube_Series/blob/main/Kubernetes/ClusterSetup/minikube-on-aws.md
