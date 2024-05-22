@@ -1,5 +1,6 @@
 # Minikube
-
+- minikube CLI : for starting/deleting the cluster
+- kubectl CLI : for configuring the minikube stucture
 
 https://docs.docker.com/engine/install/ubuntu/
 ```
