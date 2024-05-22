@@ -1,4 +1,4 @@
-# Minikube on AWS EC2
+# Minikube
 
 
 https://docs.docker.com/engine/install/ubuntu/
@@ -22,7 +22,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo systemctl status docker
 sudo systemctl enable --now docker
-sudo usermod -aG docker ec2-user
+sudo usermod -aG docker $USER
 newgrp docker
 sudo systemctl restart docker
 docker ps
