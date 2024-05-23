@@ -1,6 +1,7 @@
 # Minikube
 - minikube CLI : for starting/deleting the cluster
 - kubectl CLI : for configuring the minikube stucture
+- Deployment : abstraction over pods
 
 https://docs.docker.com/engine/install/ubuntu/
 ```
